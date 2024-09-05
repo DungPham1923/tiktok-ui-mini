@@ -1,0 +1,38 @@
+@import 'normalize.css';
+
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --text-color: #161823;
+
+    --font-family: 'ProximaNova', sans-serif;
+
+    // Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1520px;
+    --default-layout-horizontal-spacer: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    // box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.6rem !important;
+    line-height: 1.5 !important;
+    text-rendering: optimizespeed !important;
+    color: var(--text-color) !important;
+    overflow-y: overlay !important;
+}
